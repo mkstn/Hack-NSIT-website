@@ -3,8 +3,8 @@
 $gold_sponsors = array(
 	'guidelines-logo.7ea045a4e288.png' => 'https://www.mozilla.org/',
 	'mlh-logo.png' => 'http://mlh.io/',
-	'logo_new.png' => 'http://www.hackerearth.com',
 	'HackerRank_logo_with_slogan.png' => 'http://www.hackerrank.com',
+	'logo_new.png' => 'http://www.hackerearth.com',
 
 );
 
@@ -18,7 +18,7 @@ $gold_sponsors = array(
 	<meta name="author" content="Hack@NSIT 2016 Web Team">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
-	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
