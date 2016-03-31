@@ -50,7 +50,7 @@ $gold_sponsors = array(
 						<div class="caption customin customout tp-resizeme hs-line-14 font-alt" data-x="center" data-hoffset="0" data-y="center" data-voffset="-14" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="800" data-start="1200" data-startslide="1" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn">
 							<center><img src="images/hack.png" alt="" width="50%"/></center>
 							<br>
-							<strong>Hack@NSIT 2016</strong>
+							<strong>9-10 April 2016</strong>
 						</div>
 					</li>
 				</ul>
