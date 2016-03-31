@@ -1,3 +1,14 @@
+<?php
+
+$gold_sponsors = array(
+	'guidelines-logo.7ea045a4e288.png' => 'https://www.mozilla.org/',
+	'mlh-logo.png' => 'http://mlh.io/',
+	'logo_new.png' => 'http://www.hackerearth.com',
+	'HackerRank_logo_with_slogan.png' => 'http://www.hackerrank.com',
+
+);
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -137,133 +148,25 @@
 
 
 		<hr class="mt-0 mb-0 "/>
-        
-<!-- 
-        <section class="page-section pb-0" id="sponsers">
-            <div class="relative">
-                
-                <h2 class="section-title font-alt mb-70 mb-sm-40">
-                    Sponsers
-                </h2>
-                
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            
-                            <div class="section-text align-center mb-70 mb-xs-40">
-                              We are proud to present you with the sponsers for the event!
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-
-                <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white hide-titles" id="work-grid">
-                    <li class="work-item mix photography">
-                        <a href="images/portfolio/full-project-1.jpg" class="work-lightbox-link mfp-image">
-                            <div class="work-img">
-                                <img src="images/portfolio/projects-1.jpg" alt="Work" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Portrait</h3>
-                                <div class="work-descr">
-                                    Lightbox
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="work-item mix branding design">
-                        <a href="portfolio-single-1.html" class="work-ext-link">
-                            <div class="work-img">
-                                <img class="work-img" src="images/portfolio/projects-2.jpg" alt="Work" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Vase 3D</h3>
-                                <div class="work-descr">
-                                    External Page
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="work-item mix branding">
-                        <a href="portfolio-single-1.html" class="work-ext-link">
-                            <div class="work-img">
-                                <img class="work-img" src="images/portfolio/projects-3.jpg" alt="Work" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Boy in T-shirt</h3>
-                                <div class="work-descr">
-                                    External Page
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="work-item mix design photography">
-                        <a href="portfolio-single-1.html" class="work-ext-link">
-                            <div class="work-img">
-                                <img class="work-img" src="images/portfolio/projects-4.jpg" alt="Work" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Space</h3>
-                                <div class="work-descr">
-                                    External Page
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="work-item mix design">
-                        <a href="portfolio-single-1.html" class="work-ext-link">
-                            <div class="work-img">
-                                <img class="work-img" src="images/portfolio/projects-5.jpg" alt="Work" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Model</h3>
-                                <div class="work-descr">
-                                    External Page
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="work-item mix design branding">
-                        <a href="images/portfolio/full-project-3.jpg" class="work-lightbox-link mfp-image">
-                            <div class="work-img">
-                                <img src="images/portfolio/projects-6.jpg" alt="Work" />
-                            </div>
-                            <div class="work-intro">
-                                <h3 class="work-title">Young Man</h3>
-                                <div class="work-descr">
-                                    Lightbox
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section> -->
+		
 
         <section class="page-section" id="about">
 			<div class="container relative">
 				<h2 class="section-title font-alt align-left mb-70 mb-sm-40">
 					<strong>Sponsors</strong>
 				</h2>
-				<div class="section-text mb-50 mb-sm-20">
+				<div class="section-text mb-50 mb-sm-20 text-center">
+					<!-- gold sponsors -->
 					<div class="row">
-						<div class="col-md-10 col-md-offset-1">
-							Hack@NSIT 2016 is the second iteration of NSIT's very own Annual Software Hackathon. For 24 intense hours, more than 150 of the most talented students from around the country will push the limits of technology. We bring the most influential mentors, unlimited coffee, wifi, food and an adrenaline fueled environment powered by some of the world’s best companies.
-						</div>
+<?php
+
+	foreach ($gold_sponsors as $key => $value) {
+		echo '<a href="' . $value . '" target="blank"><img src="images/sponsors/' . $key . '" class="gold-sponsor-image" width="300"></a>';
+	}
+
+?>
 					</div>
 				</div>
-				<center>
-					<a href="http://bit.ly/HackNSIT" class="btn btn-mod btn-medium btn-round">
-						Register Here
-					</a>
-				</center>
 			</div>
 		</section>
         
