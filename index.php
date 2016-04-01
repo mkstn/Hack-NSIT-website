@@ -12,6 +12,17 @@ $gold_sponsors = array(
 
 );
 
+$faqs = array(
+	'What is a hackathon?' => 'A hackathon is a marathon software and hardware product creation event. At Hack@NSIT, you can look forward to amazing guest speakers, helpful workshops, tons of skilled mentors, and, of course, fun games and great food.',
+	'I’ve never been to a hackathon and I’m nervous.' => 'Have no fear — Hack@NSIT is, first and foremost, a fun learning experience! We will have beginner workshops held by professors and industry professionals in web design, mobile applications, backends, cloud content management, and more! Our goal is for you to leave Hack@NSIT having learned something.',
+	'Who can attend?' => 'Any undergraduate or graduate student at any university in the world!',
+	'What should I bring?' => 'Bring your student ID for entrance, and a government-issued ID. You’ll also need your laptop and charger for hacking.',
+	'Will this cost me money?' => '<strong>Nope!</strong> We’ll provide all the food, swag, and fun times you need to have an amazing weekend.',
+	'Is there a theme?' => '<strong>Yes!</strong>, there would be themes which will be announced at the event.',
+	'Can I use old code?' => 'You may use all the publicly available code and APIs that you want but the code you will be judged on at the end of the hackathon must be new.',
+	'I still have more questions! ' => 'Email us anytime at <a href="mailto:evolve@nsitonline.in" target="_blank">evolve@nsitonline.in</a>.',
+);
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -85,8 +96,8 @@ $gold_sponsors = array(
 				</h2>
 				<div class="section-text mb-50 mb-sm-20">
 					<div class="row">
-						<div class="col-md-10 col-md-offset-1">
-							Hack@NSIT 2016 is the second iteration of NSIT's very own Annual Software Hackathon. For 24 intense hours, more than 150 of the most talented students from around the country will push the limits of technology. We bring the most influential mentors, unlimited coffee, wifi, food and an adrenaline fueled environment powered by some of the world’s best companies.
+						<div class="col-md-12" style="font-size: 18px;">
+							Hack@NSIT 2016 is the second iteration of NSIT's very own <strong>Annual Software Hackathon</strong>. For 24 intense hours, more than 150 of the most talented students from around the country will push the limits of technology. We bring the most influential mentors, unlimited coffee, wifi, food and an adrenaline fueled environment powered by some of the world’s best companies.
 						</div>
 					</div>
 				</div>
@@ -108,44 +119,33 @@ $gold_sponsors = array(
 					<strong>FAQs</strong>
 				</h2>
 				<div class="section-text mb-50 mb-sm-20">
+<?php
+
+$count = 1;
+foreach ($faqs as $key => $value) {
+	if($count%2 != 0){
+		echo '
 					<div class="row">
 						<div class="col-md-6">
-							<strong>What is a hackathon?</strong>
+							<strong>' . $key . '</strong>
 							<br>
-							A hackathon is a marathon software and hardware product creation event. At Hack@NSIT, you can look forward to amazing guest speakers, helpful workshops, tons of skilled mentors, and, of course, fun games and great food.
-						</div>
+							' . $value . '
+						</div>';
+	} else {
+		echo '
 						<div class="col-md-6">
-							<strong>I’ve never been to a hackathon and I’m nervous.</strong>
+							<strong>' . $key . '</strong>
 							<br>
-							Have no fear — Hack@NSIT is, first and foremost, a fun learning experience! We will have beginner workshops held by professors and industry professionals in web design, mobile applications, backends, cloud content management, and more! Our goal is for you to leave Hack@NSIT having learned something.
+							' . $value . '
 						</div>
 					</div>
-					<br>
-					<div class="row">
-						<div class="col-md-6">
-							<strong>Who can attend?</strong>
-							<br>
-							Any undergraduate or graduate student at any university in the world!
-						</div>
-						<div class="col-md-6">
-							<strong>What should I bring?</strong>
-							<br>
-							Bring your student ID for entrance, and a government-issued ID. You’ll also need your laptop and charger for hacking.
-						</div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-md-6">
-							<strong>Will this cost me money?</strong>
-							<br>
-							Nope! We’ll provide all the food, swag, and fun times you need to have an amazing weekend.
-						</div>
-						<div class="col-md-6">
-							<strong>I still have more questions!</strong>
-							<br>
-							Email us anytime at <a href="mailto:evolve@nsitonline.in" target="_blank">evolve@nsitonline.in</a>.
-						</div>
-					</div>
+					<br>';
+	}
+	$count++;
+}
+
+?>
+
 				</div>
 			</div>
 		</section>
