@@ -3,8 +3,12 @@
 $gold_sponsors = array(
 	'guidelines-logo.7ea045a4e288.png' => 'https://www.mozilla.org/',
 	'mlh-logo.png' => 'http://mlh.io/',
+	'kayako-logo.png' => 'http://www.kayako.com/',
 	'HackerRank_logo_with_slogan.png' => 'http://www.hackerrank.com',
 	'logo_new.png' => 'http://www.hackerearth.com',
+	'LIPTON_PRIMARY_RGB_BMT.png' => 'http://www.liptontea.com/',
+	'wwcode_logo-05c03e43ed6c3b9e6af1901a00ca1624.png' => 'https://www.womenwhocode.com/',
+	'collegegapp.png' => 'http://www.collegegapp.com/',
 
 );
 
