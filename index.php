@@ -1,6 +1,7 @@
 <?php
 
 $gold_sponsors = array(
+	'Google_Logo_Color_Wide.png' => 'https://developers.google.com/groups/chapter/114576537688641864561/',
 	'guidelines-logo.7ea045a4e288.png' => 'https://www.mozilla.org/',
 	'mlh-logo.png' => 'http://mlh.io/',
 	'kayako-logo.png' => 'http://www.kayako.com/',
