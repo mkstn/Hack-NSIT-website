@@ -6318,5 +6318,9 @@ section:hover .small-item-carousel .owl-next{
 
 
 .gold-sponsor-image{
+  margin: 30px;
+}
+
+.silver-sponsor-image{
   margin: 35px;
 }

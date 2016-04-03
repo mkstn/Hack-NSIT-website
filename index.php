@@ -7,10 +7,14 @@ $gold_sponsors = array(
 	'kayako-logo.png' => 'http://www.kayako.com/',
 	'HackerRank_logo_with_slogan.png' => 'http://www.hackerrank.com',
 	'logo_new.png' => 'http://www.hackerearth.com',
-	'LIPTON_PRIMARY_RGB_BMT.png' => 'http://www.liptontea.com/',
-	'wwcode_logo-05c03e43ed6c3b9e6af1901a00ca1624.png' => 'https://www.womenwhocode.com/',
-	'collegegapp.png' => 'http://www.collegegapp.com/',
 
+);
+
+$silver_sponsors = array(
+	'collegegapp.png' => 'http://www.collegegapp.com/',
+	'wwcode_logo-05c03e43ed6c3b9e6af1901a00ca1624.png' => 'https://www.womenwhocode.com/',
+	'20160311 Logo.png' => 'http://www.hellomeets.com/',
+	'LIPTON_PRIMARY_RGB_BMT.png' => 'http://www.liptontea.com/',
 );
 
 $faqs = array(
@@ -158,7 +162,7 @@ foreach ($faqs as $key => $value) {
         <section class="page-section" id="about">
 			<div class="container relative">
 				<h2 class="section-title font-alt align-left mb-70 mb-sm-40">
-					<strong>Sponsors</strong>
+					<strong>Gold Sponsors</strong>
 				</h2>
 				<div class="section-text mb-50 mb-sm-20 text-center">
 					<!-- gold sponsors -->
@@ -166,7 +170,25 @@ foreach ($faqs as $key => $value) {
 <?php
 
 	foreach ($gold_sponsors as $key => $value) {
-		echo '<a href="' . $value . '" target="blank"><img src="images/sponsors/' . $key . '" class="gold-sponsor-image" width="300"></a>';
+		echo '<a href="' . $value . '" target="blank"><img src="images/sponsors/' . $key . '" class="gold-sponsor-image" width="310"></a>';
+	}
+
+?>
+					</div>
+				</div>
+
+				<hr class="mt-0 mb-0 "/>
+
+				<h2 class="section-title font-alt align-left mt-70 mb-70 mb-sm-40">
+					<strong>Silver Sponsors</strong>
+				</h2>
+				<div class="section-text mb-50 mb-sm-20 text-center">
+					<!-- gold sponsors -->
+					<div class="row">
+<?php
+
+	foreach ($silver_sponsors as $key => $value) {
+		echo '<a href="' . $value . '" target="blank"><img src="images/sponsors/' . $key . '" class="silver-sponsor-image" width="200"></a>';
 	}
 
 ?>
