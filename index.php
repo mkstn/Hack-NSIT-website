@@ -11,9 +11,12 @@ $gold_sponsors = array(
 );
 
 $silver_sponsors = array(
+	'dubeat.jpg' => 'http://dubeat.com/',
+	'UniversityExpressLogo.png' => 'http://www.universityexpress.co.in/',
 	'collegegapp.png' => 'http://www.collegegapp.com/',
-	'wwcode_logo-05c03e43ed6c3b9e6af1901a00ca1624.png' => 'https://www.womenwhocode.com/',
+	'UhiBWiGTbMlRUbbois__Yp1a-RAvY2Zr.png' => 'http://www.partiko.com/',
 	'20160311 Logo.png' => 'http://www.hellomeets.com/',
+	'wwcode_logo-05c03e43ed6c3b9e6af1901a00ca1624.png' => 'https://www.womenwhocode.com/',
 	'LIPTON_PRIMARY_RGB_BMT.png' => 'http://www.liptontea.com/',
 );
 
