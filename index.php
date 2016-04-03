@@ -11,13 +11,17 @@ $gold_sponsors = array(
 );
 
 $silver_sponsors = array(
+	'wwcode_logo-05c03e43ed6c3b9e6af1901a00ca1624.png' => 'https://www.womenwhocode.com/',
+	'LIPTON_PRIMARY_RGB_BMT.png' => 'http://www.liptontea.com/',
+);
+
+$media_partners = array(
 	'dubeat.jpg' => 'http://dubeat.com/',
 	'UniversityExpressLogo.png' => 'http://www.universityexpress.co.in/',
 	'collegegapp.png' => 'http://www.collegegapp.com/',
-	'UhiBWiGTbMlRUbbois__Yp1a-RAvY2Zr.png' => 'http://www.partiko.com/',
 	'20160311 Logo.png' => 'http://www.hellomeets.com/',
-	'wwcode_logo-05c03e43ed6c3b9e6af1901a00ca1624.png' => 'https://www.womenwhocode.com/',
-	'LIPTON_PRIMARY_RGB_BMT.png' => 'http://www.liptontea.com/',
+	'bWLq1GeY.png' => 'https://www.eventshigh.com/',
+	'UhiBWiGTbMlRUbbois__Yp1a-RAvY2Zr.png' => 'http://www.partiko.com/',
 );
 
 $faqs = array(
@@ -191,6 +195,24 @@ foreach ($faqs as $key => $value) {
 <?php
 
 	foreach ($silver_sponsors as $key => $value) {
+		echo '<a href="' . $value . '" target="blank"><img src="images/sponsors/' . $key . '" class="silver-sponsor-image" width="200"></a>';
+	}
+
+?>
+					</div>
+				</div>
+
+				<hr class="mt-0 mb-0 "/>
+
+				<h2 class="section-title font-alt align-left mt-70 mb-70 mb-sm-40">
+					<strong>Media Partners</strong>
+				</h2>
+				<div class="section-text mb-50 mb-sm-20 text-center">
+					<!-- gold sponsors -->
+					<div class="row">
+<?php
+
+	foreach ($media_partners as $key => $value) {
 		echo '<a href="' . $value . '" target="blank"><img src="images/sponsors/' . $key . '" class="silver-sponsor-image" width="200"></a>';
 	}
 
