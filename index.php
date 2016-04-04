@@ -15,6 +15,10 @@ $silver_sponsors = array(
 	'LIPTON_PRIMARY_RGB_BMT.png' => 'http://www.liptontea.com/',
 );
 
+$communication_partner = array(
+	'knowlarity-logo_high-res.png' => 'https://www.knowlarity.com/',
+);
+
 $media_partners = array(
 	'dubeat.jpg' => 'http://dubeat.com/',
 	'UniversityExpressLogo.png' => 'http://www.universityexpress.co.in/',
@@ -195,6 +199,24 @@ foreach ($faqs as $key => $value) {
 <?php
 
 	foreach ($silver_sponsors as $key => $value) {
+		echo '<a href="' . $value . '" target="blank"><img src="images/sponsors/' . $key . '" class="silver-sponsor-image" width="200"></a>';
+	}
+
+?>
+					</div>
+				</div>
+
+				<hr class="mt-0 mb-0 "/>
+
+				<h2 class="section-title font-alt align-left mt-70 mb-70 mb-sm-40">
+					<strong>Communication Partner</strong>
+				</h2>
+				<div class="section-text mb-50 mb-sm-20 text-center">
+					<!-- gold sponsors -->
+					<div class="row">
+<?php
+
+	foreach ($communication_partner as $key => $value) {
 		echo '<a href="' . $value . '" target="blank"><img src="images/sponsors/' . $key . '" class="silver-sponsor-image" width="200"></a>';
 	}
 
