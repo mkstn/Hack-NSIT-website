@@ -3,14 +3,16 @@
 $gold_sponsors = array(
 	'Google_Logo_Color_Wide.png' => 'https://developers.google.com/groups/chapter/114576537688641864561/',
 	'guidelines-logo.7ea045a4e288.png' => 'https://www.mozilla.org/',
+	'logo_new.png' => 'http://www.hackerearth.com',
+	'HackerRank_logo_with_slogan.png' => 'http://www.hackerrank.com',
 	'mlh-logo.png' => 'http://mlh.io/',
 	'kayako-logo.png' => 'http://www.kayako.com/',
-	'HackerRank_logo_with_slogan.png' => 'http://www.hackerrank.com',
-	'logo_new.png' => 'http://www.hackerearth.com',
-
+	'RackMultipart20151112-2390-15pckb.png' => 'https://aws.amazon.com/',
+	'Domain.png' => 'http://www.domain.com/',
 );
 
 $silver_sponsors = array(
+	'unnamed.png' => 'http://www.posterguy.in/',
 	'logoWithName.png' => 'http://www.campusghanta.com/',
 	'wwcode_logo-05c03e43ed6c3b9e6af1901a00ca1624.png' => 'https://www.womenwhocode.com/',
 	'Red_Bull.svg.png' => 'http://www.redbull.com/in/en',
@@ -120,8 +122,8 @@ $faqs = array(
 					</div>
 				</div>
 				<center>
-					<a href="http://bit.ly/HackNSIT" class="btn btn-mod btn-medium btn-round">
-						Register Here
+					<a href="#" class="btn btn-mod btn-medium btn-round">
+						Registrations Closed!
 					</a>
 				</center>
 			</div>
